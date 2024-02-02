@@ -1,0 +1,76 @@
+.root {
+  -fx-background-size: cover;
+  -fx-background-position: center;
+  -fx-background-color: rgb(236, 217, 255);
+}
+
+.button {
+    -fx-background-color: rgb(236, 217, 255);
+    -fx-border-color: transparent;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-border-radius: 5px;
+    -fx-padding: 0px;
+}
+
+#deposit-button {
+    -fx-background-image: url('file:///C:/Users/PCS/Downloads/depot.png');
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#transfer-button {
+    -fx-background-image: url('file:///C:/Users/PCS/Downloads/transfer.png');
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#withdraw-button {
+    -fx-background-image: url('file:///C:/Users/PCS/Downloads/money-bag.png');
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#logout-button {
+    -fx-background-image: url('file:///C:/Users/PCS/Downloads/logout.png');
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px; 
+    -fx-text-fill: #333333; 
+}
+
+.label:hover {
+     -fx-effect: dropshadow(gaussian, rgb(128, 128, 255), 5, 0, 0, 0);
+    -fx-effect: innershadow(gaussian, rgb(128, 128, 255), 5, 1, 0, 0);
+}
+
+
+.button:hover {
+     -fx-effect: dropshadow(gaussian, rgb(128, 128, 255), 5, 0, 0, 0);
+     -fx-cursor: pointer;
+    
+}
+
+.header-text {
+    -fx-font-size: 25px; 
+    -fx-color: rgb(108, 157, 217);
+    -fx-font-weight: bold;
+}
+
+#title {
+    -fx-font-size: 25px; 
+    -fx-color: rgb(108, 157, 217);
+    -fx-font-weight: bold;
+}
+
+
+
